@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserEntry component renders correctly with mocked props 1`] = `
+<UserEntry__UserEntryContainer>
+  <UserEntry__Faded>
+    5
+    .
+  </UserEntry__Faded>
+  <UserEntry__NameContainer>
+    Janusz Kowalski
+  </UserEntry__NameContainer>
+  <UserEntry__UserNameContainer>
+    @januszk
+  </UserEntry__UserNameContainer>
+</UserEntry__UserEntryContainer>
+`;

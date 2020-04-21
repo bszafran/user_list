@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component renders correctly with mocked props 1`] = `
+<Input
+  onChange={[Function]}
+  placeholder="Search me"
+  value="hello"
+>
+  <Input__InputContainer
+    onChange={[Function]}
+    placeholder="Search me"
+    value="hello"
+  >
+    <input
+      className="Input__InputContainer-r8mf24-0 gopIUt"
+      onChange={[Function]}
+      placeholder="Search me"
+      value="hello"
+    />
+  </Input__InputContainer>
+</Input>
+`;

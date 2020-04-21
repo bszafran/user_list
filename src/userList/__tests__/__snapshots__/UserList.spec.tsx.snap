@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserList component displays data when available 1`] = `
+<UserList__UserListContainer>
+  <UserList__Header>
+    Users list
+  </UserList__Header>
+  <UserList__InputContainer>
+    <Input
+      onChange={[Function]}
+      placeholder="Search by user name..."
+      value=""
+    />
+  </UserList__InputContainer>
+  <UserList__ListContainer>
+    <UserEntry
+      key="1"
+      orderNumber={1}
+      user={
+        Object {
+          "id": 1,
+          "name": "Janusz Kowalski",
+          "username": "januszk",
+        }
+      }
+    />
+    <UserEntry
+      key="3"
+      orderNumber={2}
+      user={
+        Object {
+          "id": 3,
+          "name": "Michał Nowak",
+          "username": "nowakm",
+        }
+      }
+    />
+  </UserList__ListContainer>
+</UserList__UserListContainer>
+`;
+
+exports[`UserList component displays error message when error occurred 1`] = `
+<UserList__UserListContainer>
+  <UserList__Header>
+    Users list
+  </UserList__Header>
+  <UserList__InputContainer>
+    <Input
+      onChange={[Function]}
+      placeholder="Search by user name..."
+      value=""
+    />
+  </UserList__InputContainer>
+  <UserList__ListContainer>
+    <div>
+      We are sorry, data cannot be loaded.
+    </div>
+  </UserList__ListContainer>
+</UserList__UserListContainer>
+`;
+
+exports[`UserList component renders empty list container when no data are available 1`] = `
+<UserList__UserListContainer>
+  <UserList__Header>
+    Users list
+  </UserList__Header>
+  <UserList__InputContainer>
+    <Input
+      onChange={[Function]}
+      placeholder="Search by user name..."
+      value=""
+    />
+  </UserList__InputContainer>
+  <UserList__ListContainer />
+</UserList__UserListContainer>
+`;
